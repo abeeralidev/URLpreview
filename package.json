@@ -18,6 +18,7 @@
     "page-previewer": "^0.1.7"
   },
   "engines": {
-    "node": "10.x"
+    "node": "11.3.0",
+    "npm": "6.4.1"
   }
 }

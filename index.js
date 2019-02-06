@@ -25,7 +25,10 @@ app.get('/PreviewImage', async (req, res) => {
 
    });
    
+var port =process.env.PORT || 3000
 
-   app.listen(8080,() => {
-    console.log('We are live on ' + 8080);
+console.log("default port")
+console.log(process.env.PORT)
+   app.listen(port,() => {
+    console.log('We are live on ' + port);
   });
