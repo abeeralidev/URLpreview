@@ -26,6 +26,6 @@ app.get('/PreviewImage', async (req, res) => {
    });
    
 
-   app.listen(3001,() => {
-    console.log('We are live on ' + 3001);
+   app.listen(8080,() => {
+    console.log('We are live on ' + 8080);
   });
