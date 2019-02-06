@@ -6,6 +6,9 @@ const app = express();
 app.use(cors())
 
 
+app.get('/', function (req, res) {
+res.send({status:'Preview Link Service'})
+   });
 
 app.get('/PreviewImage', async (req, res) => {
     var url = urlFormat(req.query.url)
